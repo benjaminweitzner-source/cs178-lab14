@@ -25,7 +25,7 @@ def execute_query(query, args=()):
 
 
 # ---------------------------------------------------------------------------
-# Test query — run this file directly to verify your connection worrks:
+# Test query — run this file directly to verify your connection works:
 #   python3 dbTesting.py
 # ---------------------------------------------------------------------------
 
