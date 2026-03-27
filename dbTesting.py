@@ -1,5 +1,5 @@
 import pymysql
-import creds  # download creds.py from Blackboard — do NOT push to GitHub
+import creds  # downloaded creds.py from Blackboard — do NOT push to GitHub
 
 
 def get_connection():
@@ -30,7 +30,7 @@ def execute_query(query, args=()):
 # ---------------------------------------------------------------------------
 
 rows = execute_query("""
-    SELECT ArtistId, Artist.Name, Track.Name, UnitPrice
+    SELECT ArtistId, Artist.Name, Track.Name, UnitPrice, Milliseconds
     FROM Artist
     JOIN Album USING (ArtistID)
     JOIN Track USING (AlbumID)
