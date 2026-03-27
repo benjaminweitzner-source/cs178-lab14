@@ -1,5 +1,9 @@
 # CS 178 — Lab 14 Starter Repo
+<<<<<<< HEAD
 # Benjamin22
+=======
+# Benjamin
+>>>>>>> beaeeed88f8392df995ce1907eaddbf37db610dd
 This is the starter repository for **Lab 14: Flask Part II**.
 
 ## Setup
